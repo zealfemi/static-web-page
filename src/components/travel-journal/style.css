@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 550px;
+    margin: auto;
+    background-color: #E5E5E5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.wbody {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #F55A5A;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+header > img {
+    width: 24px;
+    margin-right: 6px;
+    color: white;
+}
+
+.cards {
+    padding: 27px 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.card-pic {
+    width: 125px;
+    height: 168px;
+}
+
+.card-content {
+    padding-left: 20px;
+}
+
+.location {
+    margin-left: 4px;
+    margin-right: 12px;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.gray {
+    color: #918E9B;
+    text-decoration: underline;
+    font-size: 10.24px;
+}
+
+.card h1 {
+    margin-top: 4px;
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+
+.date {
+    font-size: 10.24px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.card p {
+    font-size: 10.24px;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 600px;
+    background-color: #ccc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 30px 30px;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    padding-bottom: 30px;
+    vertical-align: middle;
+    display: flex;
+    vertical-align: middle;
+}
+
+.blog-title {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-section {
+    margin-right: 20px;
+    padding: 50px;
+    width: 70%;
+    border: 2px solid black;
+}
+
+.sidebar {
+    float: left;
+    padding: 50px;
+    width: 30%;
+    border: 2px solid black;
+}
+
+footer {
+    clear: both;
+    padding-top: 30px;
+}
